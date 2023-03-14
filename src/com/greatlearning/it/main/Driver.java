@@ -12,7 +12,7 @@ public class Driver {
 		Scanner sc= new Scanner(System.in);
 		CredentialService service =new CredentialServiceImpl();
 		Employee emp = new Employee("Ram","Kumar");
-		System.out.println("Please select the department form the following");
+		System.out.println("Please enter the department from the following");
 		System.out.println("1. Tech");
 		System.out.println("2. Admin");
 		System.out.println("3. HR");
